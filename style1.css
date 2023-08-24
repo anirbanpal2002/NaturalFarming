@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: wheat;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.nav{
+    text-align: center;
+    font-size: larger;
+    background-color: #c3f389;
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+.contain{
+    margin-top: 70px;
+}
+.nav #head
+{
+    width: 100%;
+    /* font-size: auto; */
+}
+#head{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#backicon{
+    padding: 12px;
+}
+.container{
+    background-color: #c3f389;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px;
+    align-items: center;    
+    box-shadow: 0 2px 4px rgba(0.1, 0.1, 0.1, 0.1);
+    display: block;
+    flex-wrap: wrap;
+    border-radius: 2rem;
+}
+
+.para{
+    /* display: flex; */
+    text-align: justify;
+}
+
+.image{
+
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 2rem;
+    margin: 15px;
+    
+}
+img{
+    height: auto;
+    max-width:inherit;
+    border-radius: 2rem;
+    border: solid;
+    border-color: green;
+}
+
+#myBtn {
+    
+    position: fixed;
+    bottom: 1px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 4rem;
+  }
+  
+  #myBtn:hover {
+    background-color:whitesmoke;
+  }
+
+.playButton{
+    margin: 7px;
+    border: none;
+    background-color: transparent;
+}
+.stopButton{
+    margin: 7px;
+    border: none;
+    background-color: transparent;
+}
