@@ -52,7 +52,7 @@ h1{
 }
 .nav-item:hover{
     background: greenyellow;
-    transition: 0.4s;
+    transition: 0.4s; 
     width: 15%;
 }
 
@@ -378,7 +378,7 @@ h2 {
   padding: 20px;
 }
 .container .accordion-wrapper p{
-  text-align: justify;
+  /* text-align: justify; */
   position: relative;
 
 }
