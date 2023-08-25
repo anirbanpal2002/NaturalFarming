@@ -327,7 +327,15 @@
                 These varied systems of biodiversity-based agriculture (polyculture) have some common basic
                 principles. These methods can be combined to form a complete package of practices for successful
                 natural farming</p>
-                <button class="knowmore"><a href="METHODS OF NATURAL FARMING.html">know more...</a></button>
+                <button class="knowmore" onclick="collapse"><a href="METHODS OF NATURAL FARMING.html">know more...</a>
+                  <script>
+                    function collapse(){
+                    var collapButton=document.querySelectorAll(".knowmore");
+                    const speechSynthesisUtterances = {};
+                    speechSynthesis.cancel();
+                }
+                  </script>
+                </button>
             </div>
           </details>
           <details>
@@ -356,7 +364,15 @@
                 <br>
                 (5)Restoring Natural Justice for the Farmers
               </p>
-              <button class="knowmore"><a href="ADVANTAGES OF NATURAL FARMING .html">know more...</a></button>
+              <button class="knowmore"><a href="ADVANTAGES OF NATURAL FARMING .html">know more...</a>
+                <script>
+                  function collapse(){
+                  var collapButton=document.querySelectorAll(".knowmore");
+                  const speechSynthesisUtterances = {};
+                  speechSynthesis.cancel();
+              }
+                </script>
+              </button>
             </div>
           </details>
           <details>
@@ -377,7 +393,15 @@
               <p id="paragraph9">Natural farming agroecosystems provide a host of direct and indirect ecosystem services to man. These
                 include provisioning ecosystem services, regulating ecosystem services, and cultural ecosystem
                 services.</p>
-                <button class="knowmore"><a href="disadvantage.html">know more...</a></button>
+                <button class="knowmore"><a href="disadvantage.html">know more...</a>
+                  <script>
+                    function collapse(){
+                    var collapButton=document.querySelectorAll(".knowmore");
+                    const speechSynthesisUtterances = {};
+                    speechSynthesis.cancel();
+                  }
+                  </script>
+                </button>
             </div>
           </details>
           <details>
@@ -398,7 +422,15 @@
               <p id="paragraph10">Natural farming agroecosystems provide a host of direct and indirect ecosystem services to man. These
                 include provisioning ecosystem services, regulating ecosystem services, and cultural ecosystem
                 services.</p>
-                <button class="knowmore"><a href="Evalution.html">know more...</a></button>
+                <button class="knowmore"><a href="Evalution.html">know more...</a>
+                  <script>
+                    function collapse(){
+                    var collapButton=document.querySelectorAll(".knowmore");
+                    const speechSynthesisUtterances = {};
+                    speechSynthesis.cancel();
+                }
+                  </script>
+                </button>
             </div>
           </details>
           
@@ -614,12 +646,13 @@
     </div>
     <div class="contactcontainer">
       <form id="dataFrom" onsubmit="">
-        <input type="text" id="name" placeholder="Your Name" required>
+        <input class="insidebox" type="text" id="name" placeholder="Your Name" required>
         <input type="email" id="email" placeholder="Email id" required>
         <div class="">
-          <input type="text" id="country" placeholder="country" required>
+         <input type="text" id="country" placeholder="country" required>
           <input type="tel" id="number" placeholder="Phone number" inputmode="numeric" pattern="[0-9]+" required>
         </div>
+        
         <input type="tel" id="whatsapp" placeholder="Whats App number" required>
         <input type="tel" id="phonecode" placeholder="+91" required>
         <textarea id="message" rows="5" placeholder="Send us your opinion"></textarea>

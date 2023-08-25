@@ -16,7 +16,15 @@
     <div>
         <nav class="nav">
             <div id="backicon">
-                <a href="index.html"><i class="fa-solid fa-arrow-left fa-xl"></i></a>
+                <a class="back" onclick="collapse()" href="index.html"><i class="fa-solid fa-arrow-left fa-xl"></i>
+                    <script>
+                        function collapse(){
+                        var collapButton=document.querySelectorAll(".back");
+                        const speechSynthesisUtterances = {};
+                        speechSynthesis.cancel();
+                        }
+                    </script>
+                </a>
             </div>
             <p id="head">EVALUATION OF NATURAL FARMING</p>
         </nav>
