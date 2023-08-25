@@ -4,7 +4,14 @@
 }
 html{
     scroll-behavior: smooth;
+    user-select: none;
 }
+@media print {
+    html,
+    body {
+       display: none;
+    }
+  }
 body{
     background-color: wheat;
     font-family: 'Ubuntu', sans-serif;;
